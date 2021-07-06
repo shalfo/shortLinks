@@ -1,0 +1,8 @@
+create_short_url:
+  path: /create
+  controller: App\Controller\Api\Api::createShortUrl
+  methods: POST
+parse_short_url:
+  path: /parse/{slug}
+  controller: App\Controller\Api\Api::parseShortUrl
+  methods: GET
